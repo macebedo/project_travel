@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Diane's Travels - Asia Travel Package</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="styles-main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="MM_preloadImages('images/nav-destination-info-over.png','images/nav-travel-packages-over.png','images/nav-trip-planning-over.png','images/nav-about-over.png','images/nav-contact-over.png')">
+<div id="header"><a href="index.html"><img src="images/dianes-travels-logo.jpg" width="374" height="107"></a></div>
+<div id="nav"><a href="destination-info.html"><img src="images/nav-destination-info.png" alt="Destination Info" name="info" width="136" height="34" id="info" onMouseOver="MM_swapImage('info','','images/nav-destination-info-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="travel-packages.html"><img src="images/nav-travel-packages.png" alt="Travel Packages" name="packages" width="132" height="34" id="packages" onMouseOver="MM_swapImage('packages','','images/nav-travel-packages-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="tips.html"><img src="images/nav-trip-planning.png" alt="Trip Planning Tips" name="tips" width="140" height="34" id="tips" onMouseOver="MM_swapImage('tips','','images/nav-trip-planning-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="about.html"><img src="images/nav-about.png" alt="About Us" name="about" width="81" height="34" id="about" onMouseOver="MM_swapImage('about','','images/nav-about-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="contact.html"><img src="images/nav-contact.png" alt="Contact" name="contact" width="80" height="34" id="contact" onMouseOver="MM_swapImage('contact','','images/nav-contact-over.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+<div id="main">
+<h1>Asia</h1>
+      <p>Asia is a massive continent and you could spend years visiting places and never see it all. We think Asia's mix of ancient history and modern culture is one of the things that makes it interesting.</p>
+      <p><img src="images/asia.jpg" width="517" height="232"></p>
+      <h2>Popular Packages</h2>
+    <p>Based on feedback from the many travelers we've served in the past, here are some highly recommended packages we think you'll enjoy. Of course we offer more packages and can custom tailor trips around your tastes and favorite activities.</p>
+    <p><em><strong>Japan</strong></em><br>
+      Comprised of over 3,000 islands, Japan is a fascinating country. Of course Sushi lovers will be in heaven, but as the world's second largest economy, Japan has many cultural and natural attractions. While major cities like Tokyo
+      are great, there are many places in Japan that you may want to see even if you have't heard their names before.</p>
+    <p><em><strong>India </strong></em><br>
+    India is a vast, diverse country, from its people, to religions, clothes, dialects and more. You can experience jungle safaris, palace tours, camel rides, beaches, and so much more.</p>
+</div>
+<div id="footer">
+  <p class="copyright">Copyright © Diane's Travels</p>
+</div>
+</body>
+</html>
