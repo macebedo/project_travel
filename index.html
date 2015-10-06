@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Diane's Travels - Because Travel is More Than Just Getting There</title>
+<link href="styles-main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/nav-destination-info-over.png','images/nav-travel-packages-over.png','images/nav-trip-planning-over.png','images/nav-about-over.png','images/nav-contact-over.png')">
+<div id="header"><a href="index.html"><img src="images/dianes-travels-logo.jpg" width="374" height="107"></a></div>
+<div id="nav"><a href="destination-info.html"><img src="images/nav-destination-info.png" alt="Destination Info" name="info" width="136" height="34" id="info" onMouseOver="MM_swapImage('info','','images/nav-destination-info-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="travel-packages.html"><img src="images/nav-travel-packages.png" alt="Travel Packages" name="packages" width="132" height="34" id="packages" onMouseOver="MM_swapImage('packages','','images/nav-travel-packages-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="tips.html"><img src="images/nav-trip-planning.png" alt="Trip Planning Tips" name="planning" width="140" height="34" id="planning" onMouseOver="MM_swapImage('planning','','images/nav-trip-planning-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="about.html"><img src="images/nav-about.png" alt="About Us" name="about" width="81" height="34" id="about" onMouseOver="MM_swapImage('about','','images/nav-about-over.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="contact.html"><img src="images/nav-contact.png" alt="Contact" name="contact" width="80" height="34" id="contact" onMouseOver="MM_swapImage('contact','','images/nav-contact-over.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+<div id="main">
+  <h1>Featured Location</h1>
+  <p><strong>San Francisco:</strong> This charismatic city is great to visit. It's easy to walk places or take the public transporation such as trains, subway, buses, or the famous cable cars. Cable cars are  a fun 
+    ride ever visitor must experience! How about biking across the Golden Gate Bridge? <a href="sanfran.html">Learn more...</a></p>
+  <p><img src="images/san-fran-featured.jpg" width="517" height="232"></p>
+  <p>San Fran Destination Quick Picks: <a href="http://www.blazingsaddles.com" target="_blank">Bike the Golden Gate</a> | <a href="http://www.sfcablecar.com" target="_blank">Ride
+    a Cable Car</a> | <a href="http://www.alcatrazcruises.com" target="_blank">Tour Alcatraz</a></p>
+  <h1>Welcome</h1>
+  <p>In our travels  we've found it diffucult to properly plan the fun parts of our vacataion. For numerous reasons such as lack of good information, dificulty finding the best price, and of course who has the time for all that planning? Diane's Travels
+    does! Too many times we got somewhere and wished we has spent more time planning. This website was created to maximize your vacation time and money. We collect information about travel destinations so you know what to do. We track deals so you
+    can afford to do it. Then we put it in one place to help you save time and money. Talk with one of our travel consultants and let them help you plan the events you'll enjoy on your trip.</p>
+</div>
+<div id="footer">
+  <p class="copyright">Copyright © Diane's Travels</p>
+</div>
+</body>
+</html>
